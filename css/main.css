@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.header_top{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center; 
+    font-style: italic;
+    color: white;
+    user-select: none;
+}
+.searchbox_con{
+    margin: auto;
+  width: 75%;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 10px;
+}
+.searchbox_con_input{
+    width: 95%;
+    height: 25px;
+    border-radius: 25px;
+}
+.searchbox_con_submit{
+    background-image: url('/icon/arrow-right-s-line.png');
+    border: none;
+    outline: none;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
